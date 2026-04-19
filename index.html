@@ -434,6 +434,37 @@ html,body{overflow-x:hidden;max-width:100vw}
   .section-h{font-size:30px}
   .feat-card{min-width:82vw;width:82vw}
 }
+/* === Mobile fix v2 === */
+@media (max-width:900px){
+  body,html{overflow-x:hidden;width:100%;max-width:100vw}
+  .main{margin-left:0!important;width:100%;max-width:100vw;overflow-x:hidden}
+  .sidenav{width:100%!important;height:56px!important;flex-direction:row!important;position:sticky!important;top:0!important;bottom:auto!important;border-right:none!important;border-bottom:1px solid var(--border)!important;padding:0 14px!important;z-index:100}
+  .sidenav-logo{writing-mode:horizontal-tb!important;transform:none!important;margin:0 auto 0 0!important;font-size:14px!important;letter-spacing:3px!important}
+  .sidenav-links{display:none!important}
+  .sidenav-book{margin:0 0 0 8px!important;padding:8px 14px!important;font-size:10px!important}
+  .hero{min-height:auto!important;height:auto!important;padding:24px 0 40px!important}
+  .hero-content{grid-template-columns:1fr!important;padding:20px 18px 30px!important;gap:18px!important}
+  .hero-h1{font-size:clamp(40px,12vw,68px)!important;letter-spacing:1px!important}
+  .hero-right-info{display:none!important}
+  .hero-scroll{display:none!important}
+  .specials,.menu-section,.about-inner,.loc-info{padding:50px 18px!important}
+  .specials-header{flex-direction:column!important;align-items:flex-start!important;gap:14px!important}
+  .featured-scroll-wrap{margin:0 -18px;padding:0 18px 16px}
+  .feat-card{width:78vw!important;min-width:78vw!important;max-width:300px}
+  .menu-cols{grid-template-columns:1fr!important}
+  .menu-cats{display:flex!important;overflow-x:auto!important;border-right:none!important;border-bottom:1px solid var(--border)!important}
+  .mcat{flex-shrink:0;white-space:nowrap;border-bottom:none!important;border-right:1px solid var(--border)!important;padding:14px 16px!important;font-size:11px!important}
+  .about-quote{font-size:30px!important;line-height:1.15!important}
+  .about-stats{flex-wrap:wrap!important;gap:20px!important}
+  .location-section{grid-template-columns:1fr!important}
+  .loc-map{min-height:240px!important}
+  .book-band{flex-direction:column!important;align-items:flex-start!important;gap:14px!important;padding:24px 18px!important}
+  .book-band-btn{width:100%!important;min-height:48px!important}
+  footer{flex-direction:column!important;gap:10px!important;padding:20px 18px!important;height:auto!important;text-align:center!important}
+  .chat-box{width:100%!important;max-width:100%!important;height:100vh!important;right:0!important;bottom:0!important;border-radius:0!important}
+  .section-h{font-size:clamp(32px,8vw,52px)!important}
+  img,video{max-width:100%;height:auto}
+}
 
 </style>
 </head>
