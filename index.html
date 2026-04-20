@@ -434,7 +434,17 @@ html,body{overflow-x:hidden;max-width:100vw}
   .section-h{font-size:30px}
   .feat-card{min-width:82vw;width:82vw}
 }
-/* === Mobile fix v2 === */
+/* === Mobile fix v3 === */
+@media (max-width:900px){
+  .hero{display:block!important;height:auto!important;min-height:0!important;overflow:visible!important;padding:0!important}
+  .hero-bg{position:relative!important;height:240px!important;width:100%!important}
+  .hero-bg::after{background:linear-gradient(to bottom,transparent,var(--bg))!important}
+  .hero-scroll{display:none!important}
+  .hero-content{position:relative!important;z-index:2;margin-top:-40px;padding:0 18px 40px!important}
+  .hero-right-info{display:none!important}
+  .about-section{height:auto!important}
+  .about-bg{position:relative!important;height:200px!important}
+}
 @media (max-width:900px){
   body,html{overflow-x:hidden;width:100%;max-width:100vw}
   .main{margin-left:0!important;width:100%;max-width:100vw;overflow-x:hidden}
